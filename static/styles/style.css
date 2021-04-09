@@ -187,7 +187,7 @@ body,html{
 #fleche-nav-1,#fleche-nav-2,#fleche-nav-3{
 	float:left;
 	margin-top:26px;
-	background: url(img/fleche-nav.svg) no-repeat ;
+	background: url(static/images/fleche-nav.svg) no-repeat ;
 	width:5px;
 	height:10px;
 	margin-left:5px;
@@ -268,7 +268,7 @@ body,html{
 	height:18px;
 	right:25px;
 	margin-top:25px;
-	background: url(img/cross-menu.svg) no-repeat;
+	background: url(static/images/cross-menu.svg) no-repeat;
 	cursor:pointer;
 }
 
@@ -289,7 +289,7 @@ body,html{
 	height:53px;
 	left:50%;
 	margin-left:-65.5px;
-	background: url(img/small-logo.svg) no-repeat;
+	background: url(static/images/small-logo.svg) no-repeat;
 }
 
 /*----------------------------*/
@@ -513,8 +513,8 @@ body,html{
 	cursor:pointer;
 }
 
-#oldnew-next{background: url(img/next.svg) no-repeat;margin-left:25px;float:left;}
-#oldnew-prev{background: url(img/prev.svg) no-repeat;margin-right:25px;float:right;}
+#oldnew-next{background: url(static/images/next.svg) no-repeat;margin-left:25px;float:left;}
+#oldnew-prev{background: url(static/images/prev.svg) no-repeat;margin-right:25px;float:right;}
 
 /*----------------------------*/
 /* FOOTER */
@@ -581,7 +581,7 @@ body,html{
 	-webkit-appearance: none;
     box-shadow: none; 
 	outline: 0;
-	background: url(img/icon-newsletter.svg) no-repeat 10px 9px;
+	background: url(static/images/icon-newsletter.svg) no-repeat 10px 9px;
 	margin-left:20px;
 	vertical-align:center;
 	font-weight:400;
@@ -612,7 +612,7 @@ body,html{
     box-shadow: none; 
 	outline: 0;
 	margin: 0;
-	background: url(img/icon-search.svg) no-repeat 12px 7px;
+	background: url(static/images/icon-search.svg) no-repeat 12px 7px;
 	vertical-align:center;
 	margin-left:-40px;
 	background-color:#FFF;
@@ -620,7 +620,7 @@ body,html{
 
 #loupe{
 	position:absolute;
-	background: url(img/loupe.svg) no-repeat;
+	background: url(static/images/loupe.svg) no-repeat;
 	width:28px;
 	height:30px;
 	right:20px;
@@ -719,7 +719,7 @@ body,html{
 }
 }
 
-/* Small viewports — Old monitors, netbooks, tablets (landscape), etc. */
+/* Small viewports ï¿½ Old monitors, netbooks, tablets (landscape), etc. */
  
 @media only screen and (max-width: 965px) {
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
@@ -757,7 +757,7 @@ body,html{
 }
 }
 
-/* Smaller viewports — more tablets, old monitors */
+/* Smaller viewports ï¿½ more tablets, old monitors */
  
 @media only screen and (max-width: 860px) {
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
@@ -769,7 +769,7 @@ body,html{
 }
 }
 
-/* Even smaller viewports — more tablets, etc. */
+/* Even smaller viewports ï¿½ more tablets, etc. */
  
 @media only screen and (max-width: 740px) {
 #main-header,.navbar,.container,.container-footer,.thank,.oldnew,.copyright {
